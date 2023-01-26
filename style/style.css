@@ -1,0 +1,349 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Aqui empieza el header*/
+header{
+    background-image: linear-gradient(15deg,rgb(0,0,0)30%,rgb(6, 81, 138));
+    padding: 20px 0;
+}
+
+.caja{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.caja img{
+    width: 13%;
+}
+nav{
+    position: absolute;
+    top:calc(50% - 20px);
+    right:0;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: rgb(240, 248, 255);
+    text-shadow: 1px 1px 5px rgb(231, 62, 231);
+}
+
+nav a:hover{
+    text-decoration:underline;
+    text-decoration-color: #E1BEE7;
+    -moz-text-decoration-color: #E1BEE7;
+}
+
+/*Empieza el banner*/
+.banner{
+    height: 300px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+    background-position: bottom;
+}
+
+/*tamaños de los contenedores*/
+.principal, .diferenciales, .publicidad, .servicios, .video, .contacto,.mapa{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+/*empieza sobre la barberia alura*/
+
+.titulo-principal{
+    font-size: 2em;
+    text-align: center;
+    margin: 1.5em 0;
+    clear: left;
+    text-transform: capitalize;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+.principal  em strong{
+    color: red;
+}
+
+.utensilios{
+    width: 15%;
+    float: left;
+    margin: 0 20px 15px 0;
+    border-radius: 20PX;
+    -webkit-border-radius: 20PX;
+    -moz-border-radius: 20PX;
+    -ms-border-radius: 20PX;
+    -o-border-radius: 20PX;
+}
+
+/*Aqui empieza los diferciales*/
+.diferenciales{
+    text-align: center;
+}
+
+.diferenciales .lista-diferenciales{
+    margin: 0;
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    padding: 0 25px 20px 0;
+}
+
+.items{
+    list-style: none;
+    line-height: 2;
+}
+.items::before{
+    content:"✯"
+}
+
+.items::after{
+    content:"."
+}
+.items:first-child{
+    font-weight: bold;
+}
+
+.imagen-diferenciales{
+    width: 45%;
+    display: inline-block;
+    box-shadow: 10px 10px 30px 15px #000000;
+    border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    transition: 400ms;
+}
+
+.imagen-diferenciales:hover{
+    opacity: 0.3;
+}
+
+.video{
+    margin: 0 auto 2.5em auto;
+}
+
+.frame{
+    height: 400px;
+}
+
+/*Aqui empieza los servicios*/
+.servicios {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.catalogo-servicios{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.servicios li{
+    display: inline-block;
+    /*background: #cccccc;*/
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 11px;
+    box-sizing: border-box;
+    border: 3px dotted #039BE5;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.servicios li:hover{
+    border-color: #1E88E5;
+}
+.servicios li:active{
+    border-color: #1565C0;
+}
+.servicios h2{
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+.servicios li:hover h2{
+    font-size: 30px;
+}
+.servicios img{
+    width: 100%;
+}
+.servicios-descripcion{
+    font-size: 18px;
+    margin: 0;
+}
+.servicios-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/*Aqui empieza la seccion de contacto*/
+.formulario{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form fieldset{
+    border: none;
+}
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 80%;
+    overflow: auto;
+    border:1px solid rgb(6, 81, 138);
+    border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+textarea{
+    resize: none;
+    line-height: 1;
+    word-spacing: 3px;
+}
+.checkbox{
+    margin: 30px 0;
+    padding: 0 12px;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background-image: linear-gradient(15deg,rgb(0,0,0)30%,rgb(6, 81, 138));
+    border:none;
+    border-radius: 5px;
+    transition: 1s all; /*para que toda las transiciones sean aplicadas a todos los demas elementos*/
+    cursor:pointer; /*para cambiar la forma del puntero del mause*/
+    /*margin: 0 0 0 9%;*/
+    margin-left: 25%;
+}
+
+.enviar:hover{
+    transform: scale(1.2); /*Para hacer el boton enviar formulario mas grande*/
+    /*transform: scale(1.2) rotate(800deg); rotate es para rotas algun elemento*/
+}
+
+.informacion .conten{
+    margin-bottom: 1.5em;
+}
+
+.informacion .icon{
+    font-size: 40px;
+    display: inline-block;
+    color: rgb(6, 81, 138);
+    margin-left: 20px;
+}
+
+.informacion .info-icon{
+    width: 80%;
+    margin-left: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    
+}
+.informacion{
+    width: 45%;
+    display: inline-block;
+}
+
+.informacion div > h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.informacion div > h3::after{
+    content:":"
+}
+
+.informacion div > p{
+    margin-top: 0;
+    word-break: break-all;
+}
+
+.informacion > img{
+    width: 90%;
+    margin-left: 25px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 10px 10px 30px 15px #000000;
+    border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+}
+
+.informacion > img:hover{
+    opacity: 0.3;
+}
+
+.mapa p{
+    text-align: center;
+}
+
+/*Aqui empieza el footer*/
+footer{
+    background-image: linear-gradient(15deg,rgb(0,0,0)30%,rgb(6, 81, 138));
+    padding: 15px 0;
+}
+.footer-informacion{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+footer img{
+    width: 10%;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 0 0 0 10px;
+    margin-bottom: 0;
+}

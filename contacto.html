@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" sizes="16x16" href="img/logo.ico">
+    <title>Barbería Alura</title>
+    <meta name="author" content="Patricia Gacía Roja">
+    <meta name="generator" content="visual studio code">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b947fe8bbd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <img src="img/logo-blanco.png" alt="logo de la barbería alura ">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contacto">
+            <div class="formulario">
+                <h2  class="titulo-principal">Agenda tu Cita</h2>
+                <form>
+                    <label for="nombreapellido">Nombre y Apellido</label>
+                    <input type="text" id="nombreapellido" class="input-padron" required>
+            
+                      <label for="correoelectronico">Correo Electrónico</label>
+                     <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+            
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+    
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
+    
+                    <fieldset>
+                        <legend>¿Cómo le gustaría que lo contactemos?</legend>
+    
+                        <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                        <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                        <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                    </fieldset>
+    
+                    <fieldset>
+                        <legend>¿En cuál horario prefiere ser atendido?</legend>
+    
+                        <select>
+                            <option>Mañana</option>
+                            <option>Tarde</option>
+                            <option>Noche</option>
+                        </select>
+    
+                    </fieldset>
+    
+                    <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la Barbería Alura?</label>
+            
+                    <input type="submit" value="Enviar formulario" class="enviar">
+                </form>
+            </div>
+
+            <div class="informacion">
+                <h2  class="titulo-principal">Información</h2>
+
+                <div class="conten">
+                    <div class="icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="info-icon">
+                        <h3>dirección</h3>
+                        <p>Rua Vergueiro, 3185 - Vila Mariana, São Paulo - SP, 04101-300</p>
+                    </div>
+                </div>
+
+                <div class="conten">
+                    <div class="icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="info-icon">
+                        <h3>teléfono</h3>
+                        <p>+551141183319</p>
+                    </div>
+                </div>
+
+                <div class="conten">
+                    <div class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="info-icon">
+                        <h3>correo electrónico</h3>
+                        <p>contacto@digitaljaguar.com.mx</p>
+                    </div>
+                </div>
+
+                <div class="conten">
+                    <div class="icon">
+                        <img class="reloj" src="svg/reloj.svg">
+                    </div>
+                    <div class="info-icon">
+                        <h3>horario de atención</h3>
+                        <p>Lun. a Vie. - 8:00am a 20:00pm</p>
+                    </div>
+                </div>
+
+                <img src="img/barber.jpg" alt="imagen de un barbero">
+            </div>
+        </section>
+
+        <section class="mapa">
+
+            <h3 class="titulo-principal">Nuestra Ubicación</h3>
+            <p>Nuestro establecimiento está ubicado en el corazón de la ciudad</p>
+
+           <div class="mapa-contenido">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34784.869470159!2d-46.65499870427411!3d-23.593248407555798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Education%20and%20Innovation!5e0!3m2!1ses-419!2sbr!4v1602972945026!5m2!1ses-419!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+           </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-informacion">
+            <img src="img/logo-blanco.png" alt="Logo de la Barbería Alura">
+            <p class="copyright">&copy copyright Barbería Alura</p>
+        </div>
+    </footer>
+
+</body>
+</html>

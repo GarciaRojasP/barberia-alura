@@ -1,0 +1,129 @@
+@media screen and (max-width:1200px){
+    .utensilios {
+        width: 30%;
+    }
+
+    .informacion .info-icon {
+        width: 75%;
+    }
+    .enviar {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:992px){
+
+    .principal, .diferenciales, .publicidad, .servicios, .video, .contacto, .mapa {
+        width: 90%;
+    }
+    .catalogo-servicios{
+        text-align: center;
+    }
+
+    .servicios{
+        padding-bottom: 0;
+    }
+    .servicios li{
+        width: 40%;
+        margin: 0 1.5% 50px;
+    }
+    .formulario, .informacion{
+        width: 100%;
+    }
+    .informacion > img{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .enviar{
+        width: 40%;
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .banner{
+        height: 200px;
+    }
+    nav a{
+        font-size: 1.5em;
+    }
+    .titulo-principal {
+        font-size: 1.8em;
+    }
+
+    .frame{
+        height: 300px;
+    }
+    .servicios li{
+        width: 45%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width:576px){
+    
+    .caja{
+        width: 90%;
+        text-align: center;
+        position: static;
+    }
+
+    nav{
+        position: static;
+    }
+
+    nav a {
+        font-size: 1.3em;
+    }
+
+    .titulo-principal {
+        font-size: 1.3em;
+        margin: 1.3em 0;
+    }
+
+    .diferenciales .lista-diferenciales{
+        width: 90%;
+        padding: 0 25px 20px 25px;
+    }
+
+    .imagen-diferenciales {
+        width: 70%;
+    }
+
+    .servicios li {
+        width: 70%;
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+}
+
+
+/*para medidas resposivas máximo a 480px de ancho*/
+@media screen and (max-width:480px){
+    .caja {
+        width: 100%;
+    }
+
+    .utensilios {
+        width: 45%;
+    }
+
+    .servicios li {
+        width: 90%;
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+    .informacion .icon {
+        font-size: 35px;
+    }
+    .reloj{
+        width: 26.5pt;
+    }
+    .enviar {
+            width: 79%;
+            margin-left: 10%;
+    }
+  
+}
