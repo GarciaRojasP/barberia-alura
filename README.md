@@ -4,7 +4,7 @@
 
 <hr>
 
-![barberia-alura](https://user-images.githubusercontent.com/119550417/215010653-23be98a1-edac-466f-9a1d-1027bc361fb4.png)
+![barberia-alura](https://user-images.githubusercontent.com/119550417/236623709-848dcd6f-f1bc-4e45-bbf3-d1983ce7fa53.png)
 
 <hr>
   
